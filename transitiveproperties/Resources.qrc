@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="tp_logo.png">tp_logo.png</file>
+        <file alias="PoWlogo2.png">PoWlogo2.png</file>
+        <file alias="gameTitle.png">gameTitle.png</file>
+        <file alias="button.png">button.png</file>
+        <file alias="boat.png">images/boat.png</file>
+        <file alias="city.png">images/city.png</file>
+        <file alias="stone-resource-gen-basic.png">images/stone-resource-gen-basic.png</file>
+        <file alias="stone-resource-gen-city.png">images/stone-resource-gen-city.png</file>
+        <file alias="stone-resource-gen-silo.png">images/stone-resource-gen-silo.png</file>
+        <file alias="gold-resource-gen-basic.png">images/gold-resource-gen-basic.png</file>
+        <file alias="gold-resource-gen-city.png">images/gold-resource-gen-city.png</file>
+        <file alias="gold-resource-gen-silo.png">images/gold-resource-gen-silo.png</file>
+        <file alias="horse.png">images/horse.png</file>
+        <file alias="horse-resource-gen-basic.png">images/horse-resource-gen-basic.png</file>
+        <file alias="iron-resource-gen-basic.png">images/iron-resource-gen-basic.png</file>
+        <file alias="iron-resource-gen-city.png">images/iron-resource-gen-city.png</file>
+        <file alias="iron-resource-gen-silo.png">images/iron-resource-gen-silo.png</file>
+        <file alias="ram.png">images/ram.png</file>
+        <file alias="weapon.png">images/weapon.png</file>
+        <file alias="crop-resource-gen-basic.png">images/crop-resource-gen-basic.png</file>
+        <file alias="crop-resource-gen-city.png">images/crop-resource-gen-city.png</file>
+        <file alias="crop-resource-gen-silo.png">images/crop-resource-gen-silo.png</file>
+        <file alias="wood-resource-gen-basic.png">images/wood-resource-gen-basic.png</file>
+        <file alias="wood-resource-gen-city.png">images/wood-resource-gen-city.png</file>
+        <file alias="wood-resource-gen-silo.png">images/wood-resource-gen-silo.png</file>
+        <file alias="wall.png">images/wall.png</file>
+        <file alias="coal-resource-gen-basic.png">images/coal-resource-gen-basic.png</file>
+        <file alias="coal-resource-gen-city.png">images/coal-resource-gen-city.png</file>
+        <file alias="coal-resource-gen-silo.png">images/coal-resource-gen-silo.png</file>
+        <file alias="wheat-resource-gen-basic.png">images/wheat-resource-gen-basic.png</file>
+        <file alias="wheat-resource-gen-city.png">images/wheat-resource-gen-city.png</file>
+        <file alias="wheat-resource-gen-silo.png">images/wheat-resource-gen-silo.png</file>
+        <file>buttonPressed.png</file>
+        <file>buttonDisabled.png</file>
+    </qresource>
+    <qresource prefix="/forms">
+        <file>mainmenu.ui</file>
+        <file>mainwindow.ui</file>
+        <file>gamesetup.ui</file>
+        <file>gameoptions.ui</file>
+        <file>gamescreen.ui</file>
+        <file>territoryselection.ui</file>
+        <file>production.ui</file>
+    </qresource>
+</RCC>

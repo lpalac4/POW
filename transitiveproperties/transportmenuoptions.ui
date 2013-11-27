@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TransportMenuOptions</class>
+ <widget class="QWidget" name="TransportMenuOptions">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>585</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout_2">
+   <item row="0" column="0">
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0" alignment="Qt::AlignHCenter">
+      <widget class="QRadioButton" name="stashRadio">
+       <property name="text">
+        <string>Stash</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <widget class="QRadioButton" name="horseRadio">
+       <property name="text">
+        <string>Horse</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QRadioButton" name="ramRadio">
+       <property name="text">
+        <string>Ram</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QRadioButton" name="boatRadio">
+       <property name="text">
+        <string>Boat</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1" colspan="3" alignment="Qt::AlignHCenter">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Select materiel to transport</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QCheckBox" name="horseOnBoat">
+       <property name="text">
+        <string>Horse</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QRadioButton" name="weaponRadio">
+       <property name="text">
+        <string>Weapon</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QCheckBox" name="weaponOnHorse">
+       <property name="text">
+        <string>Weapon</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QCheckBox" name="ramOnHorse">
+       <property name="text">
+        <string>Ram</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QCheckBox" name="ramOnBoat">
+       <property name="text">
+        <string>Ram</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="MyButton" name="backButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QCheckBox" name="weaponOnBoat">
+       <property name="text">
+        <string>Weapon</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="4">
+      <widget class="MyButton" name="acceptButton">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>100</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>200</width>
+         <height>60</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Accept</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" rowspan="3">
+      <widget class="PlayerIndicatorView" name="playerHex">
+       <property name="minimumSize">
+        <size>
+         <width>150</width>
+         <height>105</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>150</width>
+         <height>105</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PlayerIndicatorView</class>
+   <extends>QGraphicsView</extends>
+   <header>playerindicatorview.h</header>
+  </customwidget>
+  <customwidget>
+   <class>MyButton</class>
+   <extends>QPushButton</extends>
+   <header>mybutton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

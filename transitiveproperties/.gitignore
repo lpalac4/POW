@@ -1,0 +1,21 @@
+/docs/OPPM_POW.pdf
+# Output from doxygen
+#####################
+doxygen-out/*
+
+# Backup and old files often created by default when editing
+#####################
+*.bak
+*~
+*#
+
+# Other
+#####################
+*.user
+android/bin/*
+android/gen/*
+android/libs/*
+android/local.properties
+android/proguard-project.txt
+android/project.properties
+android/src/*
